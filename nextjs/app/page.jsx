@@ -1,5 +1,5 @@
 // import Image from "next/image";
-import Content from "./components/Content.jsx";
+import Swap from "./components/Swap.jsx";
 import Header from "./components/Header.jsx";
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <div className="w-[94%] m-auto mt-10">
         <Header />
-        <Content />
+        <Swap />
       </div>
     </>
   );
